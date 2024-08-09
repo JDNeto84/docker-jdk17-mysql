@@ -1,0 +1,18 @@
+### Send POST request user create
+POST {{host}}/auth/register
+Content-Type: application/json
+
+{
+  "email": "jdneto84@gmail.com",
+  "password": "passW0rd",
+  "role": "ADMIN"
+}
+
+### Send POST request user login
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+  "email": "jdneto84@gmail.com",
+  "password": "passW0rd"
+}
